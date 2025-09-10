@@ -1,0 +1,4 @@
+transformers>=4.44.0
+torch
+gradio>=4.29.0
+sacremoses
