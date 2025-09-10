@@ -84,4 +84,4 @@ print("Corrected:", corrected)
 ```
 
 ## 🌐 Live Demo
-👉 Try the model directly on (Hugging Face Spaces)[https://huggingface.co/spaces/itserphan/grammar-correction-t5-lang8]
+👉 Try the model directly on [Hugging Face Spaces](https://huggingface.co/spaces/itserphan/grammar-correction-t5-lang8)
