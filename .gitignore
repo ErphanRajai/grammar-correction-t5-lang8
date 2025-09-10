@@ -1,0 +1,99 @@
+# -------------------------------
+# Python
+# -------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# -------------------------------
+# Packaging / Distribution
+# -------------------------------
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# -------------------------------
+# Virtual environments
+# -------------------------------
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# -------------------------------
+# Jupyter
+# -------------------------------
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# -------------------------------
+# ML / DL outputs
+# -------------------------------
+*.pt
+*.bin
+*.ckpt
+*.h5
+*.tflite
+*.onnx
+*.pb
+*.npz
+*.npy
+
+# Training runs
+runs/
+wandb/
+lightning_logs/
+
+# Hugging Face / Torch caches
+.cache/
+transformers_cache/
+datasets_cache/
+torch_cache/
+huggingface/
+
+# -------------------------------
+# Logs
+# -------------------------------
+*.log
+logs/
+*.out
+
+# -------------------------------
+# IDE / Editor
+# -------------------------------
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+
+# -------------------------------
+# OS files
+# -------------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# Project-specific
+# -------------------------------
+hub/
+output/
+results/
+checkpoints/
