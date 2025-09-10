@@ -10,7 +10,9 @@ This project provides a clean and modular training pipeline for fine-tuning a **
 - **`data.py`** – Handles dataset loading (`MohamedAshraf701/lang-8`), cleaning null/empty values, and tokenization.  
 - **`utils.py`** – Helper functions (e.g., device detection, model/data collator setup).  
 - **`config.py`** – Centralizes hyperparameters (batch size, learning rate, epochs, etc.).  
-- **`metrics.py`** – Defines `compute_metrics`, calculating **SacreBLEU** and **ROUGE** scores.  
+- **`metrics.py`** – Defines `compute_metrics`, calculating **SacreBLEU** and **ROUGE** scores.
+- **`app.py`** – Gradio demo / inference interface to test the model interactively.  
+- **`requirements.txt`** – Python dependencies for training, evaluation, and inference.
 
 ---
 
